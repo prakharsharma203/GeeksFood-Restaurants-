@@ -1,0 +1,29 @@
+
+.card{
+    /* border: 2px solid black; */
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    
+}
+.card>p{
+    margin-top: -10px;
+}
+.card2{
+    /* border: 2px solid black; */
+    background-color: #F3F4F6;
+    padding-block: 10px;
+    padding-inline: 10px;
+}
+.card2>p{
+    color: #22C55E;
+}
+.card3{
+    padding-inline: 20px;
+}
+.atag{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    /* border: 2px solid black; */
+    background-color: white;
+    z-index: 5;
+}
+
+.support{
+    display:flex;
+    gap: 30px;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+.p1{
+    color: blue;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 50px;
+}
+.inputtext{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.number{
+    width: 60px;
+    height: 40px;
+}
